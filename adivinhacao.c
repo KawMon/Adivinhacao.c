@@ -55,7 +55,7 @@ int main() {
 
 		if(chute <0) {
 			printf("Voce nao pode chutar numeros negativos!\n");
-			continue;
+			continue; // aparece a mensagem,ignora o restante do código dentro do loop.. então solicita um novo valor de chute.
 			}
 
 			acertou = (chute == numerosecreto);
